@@ -3,11 +3,11 @@ from ctypes.wintypes import *
 import psutil
 
 PROCESS_QUERY_INFORMATION = 0x0400
-PROCESS_VM_READ  = 0x0010
+PROCESS_VM_READ = 0x0010
 
 class MemoryHandler(object):
 
-    pid= 0
+    pid=0
     openProcess = None
     readProcessMemory = None
     CloseHandle = None
