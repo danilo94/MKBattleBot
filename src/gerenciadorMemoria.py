@@ -4,7 +4,6 @@ import psutil
 
 PROCESS_QUERY_INFORMATION = 0x0400
 PROCESS_VM_READ  = 0x0010
-ANEIS = 0x5C4DE0
 
 class MemoryHandler(object):
 
